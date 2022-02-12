@@ -1,0 +1,44 @@
+NOMBRE: DANIEL A. DIAZ GOMEZ
+CURSO: INTE2520L, DESARROLLO Y DISEÑO DE PÁGINAS WEB
+MÓDULO 5 HTML5, TABLAS Y FORMULARIOS
+
+
+Favor de contestar la siguientes preguntas:
+
+1. Nombre 4 tipos de controles de entrada (input)  de texto en un formulario de HTML.
+
+A. email
+B. search
+C. url
+D. tel
+
+2. Cuál control de entrada (input)es más conveniente para contestar preguntas simples de "si"o "no".
+
+A. Los radio button son particularmente útiles para las preguntas que requieren respuesta de "si" o "no".
+
+3.Cómo causas que tres opciones en un menú de selección (select) estén visibles a la vez.
+
+El elemento o etiqueta <select> es utilizado para crear la caja drop-down que contendrá las opciones de la lista. Para mostrar más de una opción visible en una lista desplegable se le agrega el atributo size, a este se le debe añadir al valor el número de opciones que se quieren mostrar.
+
+<select name="" size="3" multiple="multiple">
+
+4. Añade el código apropiado para crear un campo de texto de una sola línea en el que, al ingresar los datos, todo el contenido se muestra como bullets o asteriscos en el browser; nombra el campo con el valor"secret":
+  
+
+             Please enter your secret word:
+              < Escriba el código aquí... >
+<div>
+<label for="pass">Secret:</label>
+<input type="password" id="pass" name="Secret">
+</div>
+  
+
+
+5. Defina el uso de las siguientes etiquetas (recuerde que puede utilizar w3schools.com y mozilla developer doc):
+
+label, da definición a varios elementos
+fieldset, es utilizada para agrupar elementos relacionados en un formulario.
+legend, define un título para el elemento fieldset.
+
+
+Bien, guarda este archivo con tus contestaciones en la carpeta LabFormulario.  No cambies la extensión del archivo. 
