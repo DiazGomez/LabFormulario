@@ -18,7 +18,8 @@ A. Los radio button son particularmente útiles para las preguntas que requieren
 
 3.Cómo causas que tres opciones en un menú de selección (select) estén visibles a la vez.
 
-El elemento o etiqueta <select> es utilizado para crear la caja drop-down que contendrá las opciones de la lista. Para mostrar más de una opción visible en una lista desplegable se le agrega el atributo size, a este se le debe añadir al valor el número de opciones que se quieren mostrar.
+El elemento o etiqueta <select> es utilizado para crear la caja drop-down que contendrá las opciones de la lista. Para mostrar más de una opción visible en una lista desplegable se le agrega el atributo size, a este se le debe añadir al valor el número de opciones que se quieren mostrar. Además se puede usar el atributo multiple con valor multiple para permitir que los usuarios selecciones más de una opción en la lista.
+
 
 <select name="" size="3" multiple="multiple">
 
